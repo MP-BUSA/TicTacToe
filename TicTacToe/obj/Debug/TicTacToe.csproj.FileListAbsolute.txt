@@ -1,0 +1,2 @@
+C:\Users\LAB\Desktop\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\LAB\Desktop\TicTacToee\TicTacToe\bin\Debug\TicTacToe.exe.config
