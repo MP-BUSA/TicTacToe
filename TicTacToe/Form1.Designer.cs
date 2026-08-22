@@ -39,8 +39,8 @@
             this.b9 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_PlayerScore = new System.Windows.Forms.Label();
+            this.lbl_ComputerScore = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // b1
@@ -157,29 +157,29 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Cpu";
             // 
-            // label3
+            // lbl_PlayerScore
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Black;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(347, 28);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 33);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "0";
+            this.lbl_PlayerScore.AutoSize = true;
+            this.lbl_PlayerScore.BackColor = System.Drawing.Color.Black;
+            this.lbl_PlayerScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_PlayerScore.ForeColor = System.Drawing.Color.White;
+            this.lbl_PlayerScore.Location = new System.Drawing.Point(347, 28);
+            this.lbl_PlayerScore.Name = "lbl_PlayerScore";
+            this.lbl_PlayerScore.Size = new System.Drawing.Size(32, 33);
+            this.lbl_PlayerScore.TabIndex = 14;
+            this.lbl_PlayerScore.Text = "0";
             // 
-            // label4
+            // lbl_ComputerScore
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Black;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(347, 71);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 33);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "0";
+            this.lbl_ComputerScore.AutoSize = true;
+            this.lbl_ComputerScore.BackColor = System.Drawing.Color.Black;
+            this.lbl_ComputerScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ComputerScore.ForeColor = System.Drawing.Color.White;
+            this.lbl_ComputerScore.Location = new System.Drawing.Point(347, 71);
+            this.lbl_ComputerScore.Name = "lbl_ComputerScore";
+            this.lbl_ComputerScore.Size = new System.Drawing.Size(32, 33);
+            this.lbl_ComputerScore.TabIndex = 15;
+            this.lbl_ComputerScore.Text = "0";
             // 
             // Form1
             // 
@@ -187,8 +187,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(700, 485);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbl_ComputerScore);
+            this.Controls.Add(this.lbl_PlayerScore);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.b9);
@@ -219,8 +219,8 @@
         private System.Windows.Forms.Button b9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_PlayerScore;
+        private System.Windows.Forms.Label lbl_ComputerScore;
     }
 }
 
